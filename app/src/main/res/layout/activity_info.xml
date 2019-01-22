@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/infotext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="        BeatBuzzer (Παιχνίδι γνώσεων ελλινικόν τραγουδιόν)
+
+Οδηγίες παιχνιδιού :
+
+
+       Ο χρήστης πατόντας το κουμπι Ατομικό το παιχνιδι
+        αμεσος ξεκιναει να παιζει τραγούδια το μόνο που
+        εχει να κανει ο χρηστης ειναι να βρει ποιος ελλινας
+         καλλιτέχνης ειναι να το πληκτρολογήσω στο ειδικο
+         πλαίσιο (ακομη και με φονιτικο πληκτρολογιο μπορει
+         να το πει) και να πατησει το κουμπι επομενο τραγουδι
+         ετσι πηγαινει αμεσως στο επομενο τραγουδι
+         "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
